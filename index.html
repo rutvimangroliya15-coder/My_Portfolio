@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XYZ — Creative Graphic Designer</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="STYLE/style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- SCROLL TO TOP BUTTON -->
+<button id="scrollTopBtn" aria-label="Scroll to top" title="Back to top">
+  <svg viewBox="0 0 24 24">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Rutvi Mang<span>.</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about" class="nav-link-item">About</a></li>
+    <li><a href="#experience" class="nav-link-item">Experience</a></li>
+    <li><a href="#projects" class="nav-link-item">Projects</a></li>
+    <li><a href="#skills" class="nav-link-item">Skills</a></li>
+    <li><a href="#contact" class="nav-cta nav-link-item">Hire Me</a></li>
+  </ul>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- hero -->
+<section class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-bg-glow"></div>
+  <div class="hero-left">
+    <div class="hero-tag">
+      <div class="hero-tag-line"></div>
+      Laravel Developer — Ahmedabad 
+    </div>
+    <h1 class="hero-h1">
+      <span class="outline-text">Rutvi</span>
+      <em>Mangroliya</em> 
+    </h1>
+    <p class="hero-desc">
+      Laravel Developer with experience in PHP, MySQL, and REST APIs. Building secure, scalable, and efficient web applications.
+    </p>
+    <div class="hero-btns">
+      <a href="#work" class="btn-primary">View My Projects →</a>
+      <a href="mailto:rutvimangroliya15@gmail.com" class="btn-ghost">Contact Me</a> 
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img-wrap">
+      <div class="hero-img-frame">
+        <div class="hero-img-inner">
+          <div class="hero-monogram">RM</div>
+        </div>
+        <div class="hero-img-label">
+          <p>Full-Stack Capabilities</p>
+          <h3>Open to New Challenges</h3>
+        </div>
+      </div>
+      <div class="hero-corner-tag">Est. 2022</div> 
+    </div>
+    <div class="hero-stats-row">
+      <div class="hstat">
+        <div class="hstat-num">3+</div>
+        <div class="hstat-label">Main Projects</div> 
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">Laravel</div>
+        <div class="hstat-label">Expertise</div> 
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">BCA</div>
+        <div class="hstat-label">Graduate</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span class="marquee-item">Laravel Development <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Core PHP <span class="marquee-dot"></span></span>
+    <span class="marquee-item">MySQL Database Design <span class="marquee-dot"></span></span>
+    <span class="marquee-item">RESTful APIs <span class="marquee-dot"></span></span>
+    <span class="marquee-item">MVC Architecture <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Backend Scalability <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Query Optimization <span class="marquee-dot"></span></span>
+    <span class="marquee-item">System Troubleshooting <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Laravel Framework <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Data Integrity <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Laravel Development <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Core PHP <span class="marquee-dot"></span></span>
+    <span class="marquee-item">MySQL Database Design <span class="marquee-dot"></span></span>
+    <span class="marquee-item">RESTful APIs <span class="marquee-dot"></span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-left reveal">
+    <div class="section-eyebrow">About Me</div>
+    <h2 class="section-h2">Code is not just<br>logic and syntax —<br><em>it's how it scales.</em></h2>
+    <p class="about-text">
+      Laravel Developer based in Ahmedabad, focused on building secure and scalable web applications.
+    </p>
+    
+    <p class="about-text">
+      Experienced in Laravel, PHP, MySQL, REST APIs, and MVC architecture.
+    </p>
+    <div class="about-tools">
+      <span class="tool-tag">Laravel</span>
+      <span class="tool-tag">PHP</span>
+      <span class="tool-tag">MySQL</span>
+      <span class="tool-tag">Git/GitHub</span>
+      <span class="tool-tag">RESTful APIs</span>
+      <span class="tool-tag">VS Code</span>
+    </div>
+  </div>
+  <div class="about-right reveal">
+    <div class="skills-list">
+      <div class="skill-item">
+        <div class="skill-header"><span>Laravel Framework</span><span class="skill-pct">95%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="--w:0.95"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span>PHP Development</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="--w:0.90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span>Database Management</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="--w:0.88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span>MVC Architecture</span><span class="skill-pct">92%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="--w:0.92"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span>API Development</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" style="--w:0.85"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-top reveal">
+    <div>
+      <div class="section-eyebrow">What I Do</div>
+      <h2 class="section-h2">Backend<br><em>Expertise</em></h2>
+    </div>
+    <p class="services-top-sub">
+      Developing secure backend systems with clean architecture and optimized performance.
+    </p>
+  </div>
+  <div class="services-grid reveal">
+    <div class="srv-card">
+      <div class="srv-num">01</div>
+      <div class="srv-icon">🚀</div>
+      <div class="srv-name">Laravel<br>Development</div>
+      <p class="srv-desc">
+        REST APIs and third-party integrations for seamless data exchange.
+      </p>
+      <div class="srv-list">
+        <div class="srv-list-item">MVC Architecture Implementation</div>
+        <div class="srv-list-item">Custom PHP Logic Development</div>
+        <div class="srv-list-item">Blade Template Engine</div>
+        <div class="srv-list-item">System Troubleshooting</div>
+      </div>
+      <div class="srv-corner"></div>
+    </div>
+    <div class="srv-card">
+      <div class="srv-num">02</div>
+      <div class="srv-icon">🔌</div>
+      <div class="srv-name">API & System<br>Integration</div>
+      <p class="srv-desc">Developing RESTful APIs and integrating third-party services to create a seamless data flow between platforms.</p>
+      <div class="srv-list">
+        <div class="srv-list-item">RESTful API Development</div>
+        <div class="srv-list-item">Third-party Service Integration</div>
+        <div class="srv-list-item">Secure Authentication Systems</div>
+        <div class="srv-list-item">JSON Data Handling</div>
+      </div>
+      <div class="srv-corner"></div>
+    </div>
+    <div class="srv-card">
+      <div class="srv-num">03</div>
+      <div class="srv-icon">💾</div>
+      <div class="srv-name">Database<br>Management</div>
+      <p class="srv-desc">
+        Optimized MySQL databases with reliable data management.
+      </p>
+       <div class="srv-list">
+        <div class="srv-list-item">MySQL Database Design</div>
+        <div class="srv-list-item">Query Optimization</div>
+        <div class="srv-list-item">CRUD Functionality</div>
+        <div class="srv-list-item">Data Security & Integrity</div>
+      </div>
+      <div class="srv-corner"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="work-header reveal">
+    <div>
+      <div class="section-eyebrow">Portfolio</div>
+      <h2 class="section-h2">Selected<br><em>Projects</em></h2>
+    </div>
+    <div class="work-filter">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Laravel</button>
+      <button class="filter-btn">PHP</button>
+      <button class="filter-btn">Java</button>
+    </div>
+  </div>
+  <div class="work-grid reveal">
+    <div class="work-item">
+      <div class="work-thumb"><div class="work-bg wbg1"><div class="mock-w1"><div class="mock-w1-logo">SPORTS</div><div class="mock-w1-sub">Event System</div></div></div></div>
+      <div class="work-overlay">
+        <div class="work-cat">PHP & MySQL</div>
+        <div class="work-title">Sports Event Management System</div>
+      </div>
+      <div class="work-arrow">↗</div>
+    </div>
+
+    <div class="work-item">
+      <div class="work-thumb"><div class="work-bg wbg2"><div class="mock-w2"><div class="mock-post"><div class="mock-post-img">🏨</div></div></div></div></div>
+      <div class="work-overlay">
+        <div class="work-cat">PHP Development</div>
+        <div class="work-title">Hotel Management System</div>
+      </div>
+      <div class="work-arrow">↗</div>
+    </div>
+
+    <div class="work-item">
+      <div class="work-thumb"><div class="work-bg wbg3"><div class="mock-w3"><div class="mock-poster-box"><div class="mock-poster-box-title">QR</div><div class="mock-poster-box-sub">Billing</div></div></div></div></div>
+      <div class="work-overlay">
+        <div class="work-cat">Django</div>
+        <div class="work-title">Bill Generate QR Code System</div>
+      </div>
+      <div class="work-arrow">↗</div>
+    </div>
+
+    <div class="work-item">
+      <div class="work-thumb"><div class="work-bg wbg4"><div class="mock-cards-grid">📦</div></div></div>
+      <div class="work-overlay">
+        <div class="work-cat">Java & MySQL</div>
+        <div class="work-title">Inventory Management System</div>
+      </div>
+      <div class="work-arrow">↗</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="process-grid">
+    <div class="process-sticky reveal">
+      <div class="section-eyebrow">My Process</div>
+      <h2 class="section-h2">How I<br><em>Develop</em></h2>
+      <p style="font-size:14px;color:var(--text-mid);font-weight:300;line-height:1.85;margin-top:20px;">A structured approach to building scalable, secure, and high-performance web applications.</p>
+    </div>
+    <div class="process-steps reveal">
+      <div class="process-step">
+        <div class="ps-num">01</div>
+        <div>
+          <div class="ps-title">Requirement Analysis</div>
+          <p class="ps-desc">Understanding the project scope, from user modules to payment gateway needs, ensuring every client requirement is clearly defined.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="ps-num">02</div>
+        <div>
+          <div class="ps-title">Architecture & DB Design</div>
+          <p class="ps-desc">Designing the MySQL database schema and implementing MVC architecture to ensure data integrity and system scalability.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="ps-num">03</div>
+        <div>
+          <div class="ps-title">Backend Development</div>
+          <p class="ps-desc">Writing optimized PHP/Laravel code, developing RESTful APIs, and integrating secure payment systems like Razorpay.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="ps-num">04</div>
+        <div>
+          <div class="ps-title">Testing & Deployment</div>
+          <p class="ps-desc">Troubleshooting issues and ensuring smooth performance before final delivery through GitHub and server deployment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section id="testimonial">
+  <div class="testimonial-bg"></div>
+  <div class="testimonial-wrap reveal">
+    <div class="quote-mark">"</div>
+    <p class="testimonial-text">
+      Rutvi's expertise in Laravel and database architecture was a game-changer for our system. She delivered a highly scalable backend with clean MVC implementation that exceeded our expectations. Professional, technically sound, and great at troubleshooting.
+    </p>
+    <div class="testimonial-author">
+      <div class="stars">★★★★★</div>
+      <div class="ta-line"></div>
+      <div class="ta-name">Vipulbhai M.</div>
+      <div class="ta-role">Project Lead, NXC Controls — Ahmedabad</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="reveal" style="text-align:center;">
+    <div class="section-eyebrow" style="justify-content:center;">Packages</div>
+    <h2 class="section-h2" style="text-align:center;">Development<br><em>Services & Rates</em></h2>
+  </div>
+  <div class="pricing-grid reveal">
+    <div class="price-card">
+      <div class="price-empty-badge"></div>
+      <div class="price-name">Maintenance</div>
+      <div class="price-amount"><sup>₹</sup>1,999</div>
+      <div class="price-sub">Starting per task</div>
+      <div class="price-divider"></div>
+      <div class="price-features">
+        <div class="pf-item"><div class="pf-check">✓</div>Bug Fixing & Troubleshooting</div>
+        <div class="pf-item"><div class="pf-check">✓</div>Database Optimization</div>
+        <div class="pf-item"><div class="pf-check">✓</div>Minor Code Updates</div>
+        <div class="pf-item"><div class="pf-check">✓</div>1-Day Support</div>
+      </div>
+      <a href="#contact" class="price-cta">Get Started</a>
+    </div>
+    <div class="price-card featured">
+      <div class="price-badge">Most Popular</div>
+      <div class="price-name">Custom Backend</div>
+      <div class="price-amount"><sup>₹</sup>9,999</div>
+      <div class="price-sub">Small Scale Web App</div>
+      <div class="price-divider"></div>
+      <div class="price-features">
+        <div class="pf-item"><div class="pf-check">✓</div>Laravel/PHP Web Application</div>
+        <div class="pf-item"><div class="pf-check">✓</div>RESTful API Development</div>
+        <div class="pf-item"><div class="pf-check">✓</div>MySQL Database Setup</div>
+        <div class="pf-item"><div class="pf-check">✓</div>GitHub Repository Access</div>
+        <div class="pf-item"><div class="pf-check">✓</div>Clean MVC Structure</div>
+      </div>
+      <a href="#contact" class="price-cta">Get Started</a>
+    </div>
+    <div class="price-card">
+      <div class="price-empty-badge"></div>
+      <div class="price-name">Enterprise</div>
+      <div class="price-amount"><sup>₹</sup>Custom</div>
+      <div class="price-sub">Tailored to your needs</div>
+      <div class="price-divider"></div>
+      <div class="price-features">
+        <div class="pf-item"><div class="pf-check">✓</div>Full Scale Management System</div>
+        <div class="pf-item"><div class="pf-check">✓</div>Advanced Admin Panels</div>
+        <div class="pf-item"><div class="pf-check">✓</div>API Security & Optimization</div>
+        <div class="pf-item"><div class="pf-check">✓</div>Long-term Support</div>
+      </div>
+      <a href="#contact" class="price-cta">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-info reveal">
+    <div class="section-eyebrow">Get In Touch</div>
+    <h2 class="contact-big-text">Let's Build<br>Something<br><em>Scalable.</em></h2>
+    <p class="contact-sub">Have a backend requirement or a bug that needs fixing? Reach out and let's discuss how we can build a robust solution together.</p>
+    <div class="contact-items">
+      <div class="c-item">
+        <div class="c-icon">✉</div>
+        <div>
+          <div class="c-label">Email</div>
+          <div class="c-val">
+            <a href="mailto:rutvimangroliya15@gmail.com" style="text-decoration: none; color: inherit;">
+              rutvimangroliya15@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="c-item">
+        <div class="c-icon">📱</div>
+        <div>
+          <div class="c-label">WhatsApp / Phone</div>
+          <div class="c-val">
+            <a href="tel:+919409203915" style="text-decoration: none; color: inherit;">
+              +91 94092 03915
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="c-item">
+        <div class="c-icon">📍</div>
+        <div>
+          <div class="c-label">Location</div>
+          <div class="c-val">Nikol, Ahmedabad</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reveal">
+    <form class="contact-form" id="whatsappForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input class="form-input" id="userName" type="text" placeholder="John Doe" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input class="form-input" id="userEmail" type="email" placeholder="you@example.com" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Phone Number</label>
+        <input class="form-input" id="userPhone" type="tel" placeholder="+91 00000 00000" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-input" id="projectDesc" placeholder="Describe your requirement, timeline, or any questions you have..."></textarea>
+      </div>
+      <button class="form-submit" type="button" onclick="sendToWhatsApp()">Send via WhatsApp →</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Rutvi<span>.</span></div>
+      <p class="footer-tagline">
+        Laravel Developer building robust and scalable backend solutions. Specialized in PHP, MySQL, and RESTful APIs.
+      </p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/rutvi-mangroliya-7264852b7" target="_blank" class="social-btn">in</a>
+        <a href="#" class="social-btn">Git</a>
+        <a href="#" class="social-btn">📸</a>
+        <a href="mailto:rutvimangroliya15@gmail.com" class="social-btn">✉</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-title">Expertise</div>
+      <div class="footer-links">
+        <a href="#services">Laravel Development</a>
+        <a href="#services">PHP Backend Logic</a>
+        <a href="#services">Database Architecture</a>
+        <a href="#services">RESTful API Design</a>
+        <a href="#services">System Troubleshooting</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-title">Quick Links</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#pricing">Packages</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Rutvi Mangroliya. All rights reserved.</span>
+    <span>Developed with ♥ in Ahmedabad</span>
+  </div>
+</footer>
+<script>
+  function sendToWhatsApp() {
+      // Form se values lena
+      const name = document.getElementById('userName').value;
+      const email = document.getElementById('userEmail').value;
+      const userPhone = document.getElementById('userPhone').value; // User ka phone number 
+      const desc = document.getElementById('projectDesc').value;
+
+      // Aapka fixed WhatsApp number (ispar message receive hoga)
+      const myNumber = "919409203915"; // 
+
+      // Validation
+      if(name.trim() === "" || email.trim() === "" || userPhone.trim() === "") {
+          alert("Please fill in all details.");
+          return;
+      }
+
+      // Message ka format jaisa aapne pehle screenshot mein manga tha
+      const messageText = `“PORTFOLIO INQUIRY” Name: ${name} | Email: ${email} | Phone: ${userPhone} |
+      
+Message: ${desc}`;
+
+      const encodedMessage = encodeURIComponent(messageText);
+      
+      // Ye link user ka WhatsApp app kholega aur message aapke number par bhejega
+      const whatsappUrl = `https://wa.me/${myNumber}?text=${encodedMessage}`;
+      
+      window.open(whatsappUrl, '_blank');
+  }
+</script>
+
+<script>
+// Custom cursor
+const cursor = document.getElementById('cursor');
+const ring = document.getElementById('cursorRing');
+let mx = 0, my = 0, rx = 0, ry = 0;
+document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx+'px'; cursor.style.top = my+'px'; });
+function animRing() { rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12; ring.style.left = rx+'px'; ring.style.top = ry+'px'; requestAnimationFrame(animRing); }
+animRing();
+document.querySelectorAll('a, button, .srv-card, .work-item').forEach(el => {
+  el.addEventListener('mouseenter', () => ring.classList.add('hovering'));
+  el.addEventListener('mouseleave', () => ring.classList.remove('hovering'));
+});
+
+// Navbar scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Reveal on scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Skill bar animation
+const skillObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.querySelectorAll('.skill-fill').forEach(b => b.classList.add('animated')); });
+}, { threshold: 0.3 });
+document.querySelectorAll('.skills-list').forEach(el => skillObserver.observe(el));
+
+// Filter buttons
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+// ── SCROLL TO TOP ──
+const scrollBtn = document.getElementById('scrollTopBtn');
+function updateScrollBtn() {
+  const scrolled = window.scrollY;
+  if (scrolled > 300) {
+    scrollBtn.classList.add('visible');
+  } else {
+    scrollBtn.classList.remove('visible');
+  }
+}
+window.addEventListener('scroll', updateScrollBtn, { passive: true });
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ── HAMBURGER MENU ──
+const hamburger = document.getElementById('navHamburger');
+const navLinks  = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  const isOpen = navLinks.classList.toggle('mobile-open');
+  hamburger.classList.toggle('open', isOpen);
+});
+
+// Menu link pe click karo to menu band ho jaye
+document.querySelectorAll('.nav-link-item').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('mobile-open');
+    hamburger.classList.remove('open');
+  });
+});
+
+// Page ke bahar click karo to band ho
+document.addEventListener('click', (e) => {
+  if (!navLinks.contains(e.target) && !hamburger.contains(e.target)) {
+    navLinks.classList.remove('mobile-open');
+    hamburger.classList.remove('open');
+  }
+});
+</script>
+</body>
+</html>
