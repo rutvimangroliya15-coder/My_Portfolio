@@ -494,10 +494,24 @@ const skillObserver = new IntersectionObserver(entries => {
 document.querySelectorAll('.skills-list').forEach(el => skillObserver.observe(el));
 
 // Filter buttons
+// Filter buttons
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', function() {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     this.classList.add('active');
+
+    const filter = this.getAttribute('data-filter');
+
+    document.querySelectorAll('.work-item').forEach(item => {
+      const cat = item.getAttribute('data-cat');
+      if (filter === 'all' || cat === filter) {
+        item.style.display = '';
+        item.style.opacity = '1';
+      } else {
+        item.style.display = 'none';
+        item.style.opacity = '0';
+      }
+    });
   });
 });
 
